@@ -70,7 +70,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(Html("Form samples"))/*1.28*/ {_display_
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Sep 23 23:31:53 PDT 2013
+                    DATE: Tue Sep 24 00:00:42 PDT 2013
                     SOURCE: /Users/dandoug/playground/forms/app/views/index.scala.html
                     HASH: 59ed028cf20283689f6c7995080194ea18f17b44
                     MATRIX: 864->1|898->27|937->29|1116->172|1131->178|1166->191|1365->354|1380->360|1415->373|1674->596|1689->602|1726->617
