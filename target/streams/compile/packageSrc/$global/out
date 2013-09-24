@@ -1,0 +1,31 @@
+[0m[[0minfo[0m] [0mPackaging /Users/dandoug/playground/forms/target/scala-2.10/forms_2.10-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	models/User.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/models/User.java[0m
+[0m[[0mdebug[0m] [0m	controllers/Contacts.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/controllers/Contacts.java[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/conf/routes[0m
+[0m[[0mdebug[0m] [0m	models/Countries.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/models/Countries.java[0m
+[0m[[0mdebug[0m] [0m	models/Point.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/models/Point.java[0m
+[0m[[0mdebug[0m] [0m	controllers/SignUp.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/controllers/SignUp.java[0m
+[0m[[0mdebug[0m] [0m	models/Contact.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/models/Contact.java[0m
+[0m[[0mdebug[0m] [0m	service/Lookup.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/service/Lookup.java[0m
+[0m[[0mdebug[0m] [0m	controllers/Wizard.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/controllers/Wizard.java[0m
+[0m[[0mdebug[0m] [0m	openshift.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/conf/openshift.conf[0m
+[0m[[0mdebug[0m] [0m	controllers/Search.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/controllers/Search.java[0m
+[0m[[0mdebug[0m] [0m	models/SearchResult.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/models/SearchResult.java[0m
+[0m[[0mdebug[0m] [0m	controllers/Application.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/dandoug/playground/forms/app/controllers/Application.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

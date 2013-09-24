@@ -1,0 +1,31 @@
+@(point: Point)
+
+@main(Html("Search results"), nav = "search") {
+    
+    <h2>Starbucks:</h2>
+    
+    <h6>Starting location</h6>
+    
+    <p>
+        @point.latlon
+    </p>
+    
+           @if(point.results!= null && point.results.size > 0) {
+            
+            <h6>Results</h6>
+            
+            <ul>
+                @point.results.map { result =>
+                    <li><b>@result.name</b>
+                    	<ul>
+                    		<li>@result.street, @result.city, @result.state, @result.zip</li>
+                    		<li>@result.phone</li>
+                    		<li>@result.distance miles away</li>
+                    	</ul>
+                    </li>
+                }
+            </ul>
+            
+        }
+    
+}

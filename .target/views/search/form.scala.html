@@ -1,0 +1,34 @@
+@(searchForm: Form[Point])
+
+@import helper._
+@import helper.twitterBootstrap._
+
+@title = {
+    Find a Starbucks 
+}
+
+@main(title, nav = "search") {
+    
+    @helper.form(action = routes.Search.submit) {
+        
+        <fieldset>
+            <legend>Point Information</legend>
+            
+            @inputText(
+                searchForm("latlon"), 
+                '_label -> "Lat,Lon", 
+                '_help -> "Please enter lat,lon. For example 37.2163,-121.97496",
+                '_error -> searchForm.globalError
+            )
+        </fieldset>
+        
+        
+        
+        <div class="actions">
+            <input type="submit" class="btn primary" value="Search">
+            <a href="@routes.Application.index" class="btn">Cancel</a>
+        </div>
+        
+    }
+    
+}
