@@ -1,0 +1,11 @@
+logs
+project/project
+project/target
+target
+tmp
+.classpath
+.DS_Store
+.project
+.settings/
+.target/
+application.log
