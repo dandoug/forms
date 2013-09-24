@@ -1,11 +1,7 @@
 logs
 project/project
 project/target
-target
+#target #commented for deploying to openshift
 tmp
-.classpath
-.DS_Store
-.project
-.settings/
-.target/
-application.log
+.history
+dist
