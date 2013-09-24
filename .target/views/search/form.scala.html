@@ -10,6 +10,24 @@
 @main(title, nav = "search") {
     
     @helper.form(action = routes.Search.submit) {
+    
+    	<script>
+			var x=document.getElementById("latlon");
+			function getLocation()
+  			{
+				x=document.getElementById("latlon");
+  				if (navigator.geolocation)
+    			{
+    				navigator.geolocation.getCurrentPosition(showPosition);
+    			}
+  				else{
+  					x.value="Geolocation is not supported by this browser.";}
+  			}
+			function showPosition(position)
+  			{
+  				x.value="" + position.coords.latitude +","+position.coords.longitude;
+  			}
+		</script>
         
         <fieldset>
             <legend>Point Information</legend>
@@ -27,6 +45,7 @@
         <div class="actions">
             <input type="submit" class="btn primary" value="Search">
             <a href="@routes.Application.index" class="btn">Cancel</a>
+            <a class="btn" onclick="getLocation()">Use Current Location</a>
         </div>
         
     }
