@@ -5,7 +5,7 @@ function GScript(src) {document.write('<' + 'script src="' + src + '"' +' type="
 if (window.location.toString().substr(0,4)=='file')
 	var key = "ABQIAAAAS-9BXlmhAxzk5tMQ6009tBQ60YHOa08tQ3Rk7kk6p9CpE9bRLhRgOlUOLYUPHsGwp_XgmEwZWB1hnA";
 else
-	var key = "ABQIAAAAS-9BXlmhAxzk5tMQ6009tBSuPyGFyYqpbBL0yyePbwJ9Yzj2TRSRG70K1wsky3JHARggI0ccbJ3Y0A";
+	var key = "AIzaSyADhh4oi0t8r3WDIyIaIQ6rC68xTX4_oPg";
 
 GScript('http://maps.google.com/maps?file=api&amp;v=2&amp;key=' + key);
 
