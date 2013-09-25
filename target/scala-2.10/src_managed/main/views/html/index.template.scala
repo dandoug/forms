@@ -26,18 +26,9 @@ object index extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,
     def apply():play.api.templates.HtmlFormat.Appendable = {
         _display_ {
 
-Seq[Any](_display_(Seq[Any](/*1.2*/main(Html("Form samples"))/*1.28*/ {_display_(Seq[Any](format.raw/*1.30*/("""
+Seq[Any](_display_(Seq[Any](/*1.2*/main(Html("Playground"))/*1.26*/ {_display_(Seq[Any](format.raw/*1.28*/("""
     
-    <h2>Sign up form</h2>
-    
-    <p>
-        Demonstrate a classical sign up form.
-    </p>
-    
-    <p>
-        <a class="btn" href=""""),_display_(Seq[Any](/*10.31*/routes/*10.37*/.SignUp.blank)),format.raw/*10.50*/("""">View sample »</a>
-    </p>
-    
+
     <h2>Search </h2>
     
     <p>
@@ -45,18 +36,9 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(Html("Form samples"))/*1.28*/ {_display_
     </p>
     
     <p>
-        <a class="btn" href=""""),_display_(Seq[Any](/*20.31*/routes/*20.37*/.Search.blank)),format.raw/*20.50*/("""">Find Starbucks »</a>
+        <a class="btn" href=""""),_display_(Seq[Any](/*11.31*/routes/*11.37*/.Search.blank)),format.raw/*11.50*/("""">Find Starbucks »</a>
     </p>
     
-    <h2>Contact form</h2>
-    
-    <p>
-        Demonstrate a contact manager that allows the addition of complex contact information.
-    </p>
-    
-    <p>
-        <a class="btn" href=""""),_display_(Seq[Any](/*30.31*/routes/*30.37*/.Contacts.blank)),format.raw/*30.52*/("""">View sample »</a>
-    </p>
     
 """)))})))}
     }
@@ -70,11 +52,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main(Html("Form samples"))/*1.28*/ {_display_
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Sep 24 01:02:32 PDT 2013
+                    DATE: Tue Sep 24 22:33:46 PDT 2013
                     SOURCE: /Users/dandoug/playground/forms/app/views/index.scala.html
-                    HASH: 59ed028cf20283689f6c7995080194ea18f17b44
-                    MATRIX: 864->1|898->27|937->29|1116->172|1131->178|1166->191|1365->354|1380->360|1415->373|1674->596|1689->602|1726->617
-                    LINES: 29->1|29->1|29->1|38->10|38->10|38->10|48->20|48->20|48->20|58->30|58->30|58->30
+                    HASH: a8d7e70d6e2131e8752ff67994da93cbc2ac26bf
+                    MATRIX: 864->1|896->25|935->27|1107->163|1122->169|1157->182
+                    LINES: 29->1|29->1|29->1|39->11|39->11|39->11
                     -- GENERATED --
                 */
             

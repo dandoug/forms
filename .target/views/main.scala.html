@@ -4,7 +4,7 @@
 
 <html>
     <head>
-        <title>Form samples</title>
+        <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")">
         <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
@@ -12,27 +12,20 @@
     </head>
     <body>
         
-        <div class="topbar">
+        <!--  div class="topbar">
             <div class="fill">
                 <div class="container">
                     <a class="brand" href="@routes.Application.index()">Forms</a>
                     <ul class="nav">
-                        <li class="@("active".when(nav == "signup"))">
-                            <a href="@routes.SignUp.blank()">Sign up</a>
-                        </li>
+                        
                         <li class="@("active".when(nav == "search"))">
                             <a href="@routes.Search.blank()">Find Starbucks</a>
                         </li>
-                        <li class="@("active".when(nav == "contact"))">
-                            <a href="@routes.Contacts.blank()">Contacts</a>
-                        </li>
-						<li class="@("active".when(nav == "wizard"))">
-	                        <a href="@routes.Wizard.step(1)">Wizard</a>
-	                    </li>
+                     
                     </ul>
                 </div>
             </div>
-        </div>
+        </div -->
 
         <div class="container">
 
@@ -49,12 +42,6 @@
                 </div>
                 
             </div>
-
-            <footer>
-                <p>
-                    <a href="http://www.playframework.com">www.playframework.com</a>
-                </p>
-            </footer>
 
         </div>
         
