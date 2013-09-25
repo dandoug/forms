@@ -16,7 +16,7 @@
                 @point.results.map { result =>
                     <li><b>@result.name</b>
                     	<ul>
-                    		<li>@result.street, @result.city, @result.state, @result.zip</li>
+                    		<li><a href="https://maps.google.com/maps?saddr=@point.latlon&daddr=@result.location" target="_blank">@result.street, @result.city, @result.state, @result.zip</a></li>
                     		@if(result.phone != null && result.phone.length > 0) {
                     		<li>@result.phone</li>
                     		}
