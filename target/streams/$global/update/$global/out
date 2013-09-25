@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#forms_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#forms_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cfe3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@246aca9b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
@@ -4644,7 +4644,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5056ms :: artifacts dl 147ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4402ms :: artifacts dl 123ms[0m
 [0m[[0mdebug[0m] [0m	report for default#forms_2.10;1.0 compile produced in /Users/dandoug/playground/forms/target/resolution-cache/reports/default-forms_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#forms_2.10;1.0 runtime produced in /Users/dandoug/playground/forms/target/resolution-cache/reports/default-forms_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#forms_2.10;1.0 test produced in /Users/dandoug/playground/forms/target/resolution-cache/reports/default-forms_2.10-test.xml[0m
@@ -4658,5 +4658,5 @@
 [0m[[0mdebug[0m] [0m	report for default#forms_2.10;1.0 docs produced in /Users/dandoug/playground/forms/target/resolution-cache/reports/default-forms_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#forms_2.10;1.0 pom produced in /Users/dandoug/playground/forms/target/resolution-cache/reports/default-forms_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#forms_2.10;1.0 scala-tool produced in /Users/dandoug/playground/forms/target/resolution-cache/reports/default-forms_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5056ms resolve - 147ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (4402ms resolve - 123ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
