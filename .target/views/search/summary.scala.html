@@ -5,7 +5,7 @@
     <h6>Starting location</h6>
     
     <p>
-        @point.latlon
+        <a href="https://maps.google.com/maps?q=@point.latlon" target="_blank">@point.latlon</a>
     </p>
     
            @if(point.results!= null && point.results.size > 0) {

@@ -34,8 +34,8 @@
             
             @inputText(
                 searchForm("latlon"), 
-                '_label -> "Lat,Lon", 
-                '_help -> "Please enter lat,lon. For example 37.2163,-121.97496",
+                '_label -> "Lat,Lon like 37.2163,-121.97496", 
+                '_help -> "or enter address then Geocode",
                 '_error -> searchForm.globalError
             )
         </fieldset>
@@ -44,8 +44,9 @@
         
         <div class="actions">
             <input type="submit" class="btn primary" value="Search">
-            <a href="@routes.Application.index" class="btn">Cancel</a>
-            <a class="btn" onclick="getLocation()">Use Current Location</a>
+            <a class="btn" onclick="clearform()">Clear</a><br><br>
+            <a class="btn" onclick="getLocation()">Current Location</a>
+            <a class="btn" onclick="geocodeAddress()">Geocode</a>
         </div>
         
     }
